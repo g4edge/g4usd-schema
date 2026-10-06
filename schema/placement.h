@@ -16,6 +16,9 @@
 #include "pxr/usd/usd/stage.h"
 #include ".//tokens.h"
 
+#include "pxr/usd/usd/notice.h"
+
+
 #include "pxr/base/vt/value.h"
 
 #include "pxr/base/gf/vec3d.h"
@@ -24,8 +27,6 @@
 
 #include "pxr/base/tf/token.h"
 #include "pxr/base/tf/type.h"
-
-#include "pxr/usd/usd/notice.h"
 
 PXR_NAMESPACE_OPEN_SCOPE
 

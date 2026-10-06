@@ -171,59 +171,59 @@ struct G4TokensType {
     const TfToken z;
     /// \brief "Assembly"
     /// 
-    /// Schema identifer and family for G4Assembly
+    /// Schema identifier and family for G4Assembly
     const TfToken Assembly;
     /// \brief "BooleanSolid"
     /// 
-    /// Schema identifer and family for G4BooleanSolid
+    /// Schema identifier and family for G4BooleanSolid
     const TfToken BooleanSolid;
     /// \brief "Box"
     /// 
-    /// Schema identifer and family for G4Box
+    /// Schema identifier and family for G4Box
     const TfToken Box;
     /// \brief "Cons"
     /// 
-    /// Schema identifer and family for G4Cons
+    /// Schema identifier and family for G4Cons
     const TfToken Cons;
     /// \brief "DisplacedSolid"
     /// 
-    /// Schema identifer and family for G4DisplacedSolid
+    /// Schema identifier and family for G4DisplacedSolid
     const TfToken DisplacedSolid;
     /// \brief "Intersection"
     /// 
-    /// Schema identifer and family for G4Intersection
+    /// Schema identifier and family for G4Intersection
     const TfToken Intersection;
     /// \brief "Logical"
     /// 
-    /// Schema identifer and family for G4Logical
+    /// Schema identifier and family for G4Logical
     const TfToken Logical;
     /// \brief "MultiUnion"
     /// 
-    /// Schema identifer and family for G4MultiUnion
+    /// Schema identifier and family for G4MultiUnion
     const TfToken MultiUnion;
     /// \brief "Orb"
     /// 
-    /// Schema identifer and family for G4Orb
+    /// Schema identifier and family for G4Orb
     const TfToken Orb;
     /// \brief "Placement"
     /// 
-    /// Schema identifer and family for G4Placement
+    /// Schema identifier and family for G4Placement
     const TfToken Placement;
     /// \brief "Subtraction"
     /// 
-    /// Schema identifer and family for G4Subtraction
+    /// Schema identifier and family for G4Subtraction
     const TfToken Subtraction;
     /// \brief "Tubs"
     /// 
-    /// Schema identifer and family for G4Tubs
+    /// Schema identifier and family for G4Tubs
     const TfToken Tubs;
     /// \brief "Union"
     /// 
-    /// Schema identifer and family for G4Union
+    /// Schema identifier and family for G4Union
     const TfToken Union;
     /// \brief "VSolid"
     /// 
-    /// Schema identifer and family for G4VSolid
+    /// Schema identifier and family for G4VSolid
     const TfToken VSolid;
     /// A vector of all of the tokens listed above.
     const std::vector<TfToken> allTokens;

@@ -27,6 +27,9 @@ class "VSolid" (
     inherits = </Mesh>
     customData = {
         string className = "VSolid"
+        string extraIncludes = """
+#include "pxr/usd/usd/notice.h"
+"""
     }
 )  {
     string name = "name"
@@ -102,6 +105,9 @@ class BooleanSolid "BooleanSolid" (
 
   customData = {
     string className = "BooleanSolid"
+    string extraIncludes = """
+#include "pxr/usd/usd/notice.h"
+"""
   }
 ) {
     string g4type = "BooleanSolid"
@@ -115,6 +121,9 @@ class DisplacedSolid "DisplacedSolid" (
 
    customData = {
      string className = "DisplacedSolid"
+     string extraIncludes = """
+#include "pxr/usd/usd/notice.h"
+"""
    }
 ) {
     string g4type = "DisplacedSolid"
@@ -158,6 +167,9 @@ class MultiUnion "MultiUnion" (
 
   customData = {
     string className = "MultiUnion"
+    string extraIncludes = """
+#include "pxr/usd/usd/notice.h"
+"""
   }
 ) {
     string g4type = "MultiUnion"
@@ -198,6 +210,9 @@ class Placement "Placement" (
 
     customData = {
          string className = "Placement"
+         string extraIncludes = """
+#include "pxr/usd/usd/notice.h"
+"""
     }
 ) {
     string g4type = "Placement"

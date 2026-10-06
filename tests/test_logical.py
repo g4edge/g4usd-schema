@@ -17,4 +17,6 @@ def test_logcial(stage = None) :
     setDefaultBox(b1)
     l.GetPrim().GetAttribute("solidprim").Set("det_box")
 
+    stage.Save()
+
     return l

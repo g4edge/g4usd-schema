@@ -56,3 +56,5 @@ def test_multiunion(stage = None) :
     mu.GetSolid3primAttr().Set("result")
 
     mu.Update()
+
+    stage.Save()

@@ -48,4 +48,6 @@ def test_logcial_physical(stage = None) :
 
     setDefaultBox2(l2_solid)
 
+    stage.GetRootLayer().Save()
+    
     return l

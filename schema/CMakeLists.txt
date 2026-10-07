@@ -45,6 +45,7 @@ pxr_plugin(${PXR_PACKAGE}
     PYMODULE_FILES
 		__init__.py
 		utils.py
+		G4Interface.py
 
     PYMODULE_CPPFILES
 		module.cpp
